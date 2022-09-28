@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <header></header>
+  <main class="hero">
+    <div class="hero_text">
+      <h1><span class="light">We are launching</span> soon!</h1>
+      <p>Subscribe and get notified</p>
+      <form action="#">
+        <div class="input_container">
+          <input type="text" placeholder="Your email address..." name="email" required
+          pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?.">
+          <span class="error_message"></span>
+        </div>
+        <button id="notify">Notify Me</button>
+      </form>
+    </div>
+    <div class="hero_image"></div>
+  </main>
+  <footer>
+    <div>
+      <span class="icon">
+        <img src="images/facebook-icon.svg" alt="facebook icon" width="18px">
+      </span>
+      <span class="icon">
+        <img src="images/twitter-icon.svg" alt="twitter icon" width="18px">
+      </span>
+      <span class="icon">
+        <img src="images/instagram-icon.svg" alt="instagram icon" width="18px">
+      </span>
+    </div>
+    <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
+  <script src="js/emailValidation.js"></script>
+</body>
+</html>
